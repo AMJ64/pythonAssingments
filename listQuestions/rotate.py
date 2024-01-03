@@ -6,3 +6,8 @@ for i in range(len(list)):
     o.append(list[new])
 print(o)
 
+
+for i in range(2):
+    le = list.pop()
+    list.insert(0, le)
+print(list)
